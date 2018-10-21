@@ -3,6 +3,7 @@ var animal = 'dog'
 function myAnimal() 
      {return animal}
 
+var animal = 'cat'
 function yourAnimal(animal) {
   // How can we make sure that this function
   // and the above function both pass?
@@ -18,7 +19,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-  {return function()
+  {//return function()
     return "FUNKY!"
   }
 }
